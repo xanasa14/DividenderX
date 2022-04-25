@@ -12,7 +12,7 @@ def getDividendQuarter(Price, DivdendPerShare, Quarters, Ticker="UnderlyingAsset
         # print(temp)
         equity += temp
         # print(equity)
-        print(str(i+1),"equity ---> ", equity, "and", "temp ---->", temp)
+        #print(str(i+1),"equity ---> ", equity, "and", "temp ---->", temp)
         equityHistory.append(equity)
         newerReturn.append(temp)
     df = pd.DataFrame(equityHistory, columns=["EquityHistory"])
@@ -29,10 +29,10 @@ def getDividendMonthly(Price, DivdendPerShare, Month, Ticker="UnderlyingAsset"):
     equity = Price
     for i in range(Month):
         temp = equity * normalDiviReturn
-        # print(temp)
+        # print(temp)cls
         equity += temp
         # print(equity)
-        print(str(i+1),"equity ---> ", equity, "and", "temp ---->", temp)
+        #print(str(i+1),"equity ---> ", equity, "and", "temp ---->", temp)
         equityHistory.append(equity)
         newerReturn.append(temp)
     df = pd.DataFrame(equityHistory, columns=["EquityHistory"])
