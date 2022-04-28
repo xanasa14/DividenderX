@@ -1,4 +1,4 @@
-DividenderX is a module that helps to visualize the snow-ball effect of an underlying asset through time.
+DividenderX is a library that helps to visualize the snow-ball effect of an underlying asset through time.
 
 
 The parameters needed to run these tools are: 
